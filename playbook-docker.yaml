@@ -1,9 +1,6 @@
 - hosts: local
   gather_facts: False
   debugger: on_skipped
-  vars:
-    image: impacta_app
-    tag: '1.0'
 
   tasks:
   - name: Instalando docker & docker compose
